@@ -1,8 +1,4 @@
-# ZetaAssn_Q4
-Zeta Assignment Question 4
-
-# Question 4
-# 1)	Rate limiting: Controlling frequency of requests to prevent spams:
+# Rate limiting: Controlling frequency of requests to prevent spams:
 1.1	Fixed Window Rate Limiter - Fixed Window Counter rate limiting operates by dividing time into fixed-size windows and tracking the number of requests from each user or client within each window. If a user exceeds the maximum allowed number of requests for a window, subsequent requests are blocked until the next window starts. This is the simplest approach.
  
 Approach to build:
@@ -30,12 +26,7 @@ Approach to build:
 
 --	Alternatively, if water is added (new request) and a threshold is reached, prevent any further requests.
 
-
-# 2)	Demonstrated in efficient_rate_limiter.py
-
-Efficient data structure used – defaultdict 
-
-# 3)	Tradeoffs:
+# Tradeoffs:
 
 Fixed window: 
 
